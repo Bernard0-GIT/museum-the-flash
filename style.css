@@ -1,0 +1,50 @@
+* { 
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #440000;
+    color: rgb(207, 193, 2);
+}
+
+form{
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid rgb(207, 193, 2);
+    border-radius: 15px;
+    background-color: #220000;
+}
+
+span{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section{
+    margin-bottom: 15px;
+}
+    
+    
+    .logo {
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1, h2, p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
