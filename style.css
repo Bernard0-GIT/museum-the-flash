@@ -48,54 +48,5 @@ h1, h2, p {
     margin-bottom: 20px;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #0a0a0a;
-  color: #fff;
-  text-align: center;
-  padding: 50px;
-}
 
-/* Efeito básico da palavra */
-.flash {
-  color: #ffcc00;
-  font-weight: bold;
-  position: relative;
-  cursor: pointer;
-  transition: color 0.2s ease;
-}
 
-/* Efeito de brilho e rastro ao passar o mouse */
-.flash:hover {
-  color: #ffffff;
-  text-shadow:
-    0 0 10px #ff0000,
-    0 0 20px #ff6600,
-    0 0 30px #ffff00;
-  animation: speedTrail 0.4s linear infinite;
-}
-
-/* Animação de rastro rápido */
-@keyframes speedTrail {
-  0% {
-    text-shadow:
-      0 0 5px #ff0000,
-      0 0 10px #ff6600,
-      0 0 15px #ffff00;
-    transform: translateX(0);
-  }
-  50% {
-    text-shadow:
-      -5px 0 10px #ff0000,
-      -10px 0 15px #ff6600,
-      -15px 0 20px #ffff00;
-    transform: translateX(2px);
-  }
-  100% {
-    text-shadow:
-      0 0 5px #ff0000,
-      0 0 10px #ff6600,
-      0 0 15px #ffff00;
-    transform: translateX(0);
-  }
-}
